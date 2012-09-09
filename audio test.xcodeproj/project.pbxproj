@@ -21,6 +21,7 @@
 		6161925E15FC1B540050EC0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6161923C15FC1B540050EC0F /* Foundation.framework */; };
 		6161926615FC1B540050EC0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6161926415FC1B540050EC0F /* InfoPlist.strings */; };
 		6161926915FC1B540050EC0F /* audio_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6161926815FC1B540050EC0F /* audio_testTests.m */; };
+		6161927315FC1B940050EC0F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6161927215FC1B940050EC0F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		6161926515FC1B540050EC0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6161926715FC1B540050EC0F /* audio_testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio_testTests.h; sourceTree = "<group>"; };
 		6161926815FC1B540050EC0F /* audio_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audio_testTests.m; sourceTree = "<group>"; };
+		6161927215FC1B940050EC0F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6161927315FC1B940050EC0F /* AVFoundation.framework in Frameworks */,
 				6161923B15FC1B540050EC0F /* UIKit.framework in Frameworks */,
 				6161923D15FC1B540050EC0F /* Foundation.framework in Frameworks */,
 				6161923F15FC1B540050EC0F /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +86,7 @@
 		6161922B15FC1B540050EC0F = {
 			isa = PBXGroup;
 			children = (
+				6161927215FC1B940050EC0F /* AVFoundation.framework */,
 				6161924015FC1B540050EC0F /* audio test */,
 				6161926115FC1B540050EC0F /* audio testTests */,
 				6161923915FC1B540050EC0F /* Frameworks */,
